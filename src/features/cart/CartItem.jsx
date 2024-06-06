@@ -11,7 +11,7 @@ function CartItem({ item }) {
   return (
     <li className="py-3 sm:flex sm:items-center sm:justify-between">
       <p className="mb-1 sm:mb-0">
-        <span className="font-bold mr-2"> {quantity}</span>&times; {name}
+        <span className="font-bold"> {quantity}</span>&times; {name}
       </p>
       <div className="flex justify-between items-center sm:gap-6">
         <p className="text-sm font-bold">{formatCurrency(totalPrice)}</p>
